@@ -1,0 +1,6 @@
+{% extends 'booker/base.html' %}
+{% block content %}
+{% if user.is_authenticated %}
+<h1>Welcome to the homepage</h1>
+{% endif %}
+{% endblock %}

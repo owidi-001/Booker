@@ -1,0 +1,15 @@
+{% extends 'booker/base.html' %}
+{% block content %}
+<div class="container">
+        <div class="row">
+            <div class="col-sm-6 mx-auto" style="margin-top: 70px">
+                <h1>Thank you for signing up!</h1>
+            </div>
+        </div>
+        <div class="wrapper">
+          <a href="{%url 'bookings' %}"> <button type="button" class="btn btn-outline-primary" name="button">Book Now</button></a>
+        </div>
+
+    </div>
+
+{% endblock %}
